@@ -108,18 +108,21 @@
 
 + **Array**	
 
-  数组定义类型方式多种
+  数组定义类型方式多种,数组的项中不允许出现其他的类型
 
   ```ts
   let fib:number[] = [1,1,2,3,5];
   
+  // 数组泛型描述数组
   let fib:Array<number> = [1,1,2,3,5];
   
+  // 用接口描述数组
   interface NumberArray{
     [index:number]:number;
   }
   let fib :NumberArray = [1,1,2,3,5];
   
+  // 用any表示数组中允许出现任意类型
   let list:any[] = ['some', 23,{website:'www.4399.com'}];
   ```
 
@@ -305,7 +308,26 @@
       gender: 'male'
   };
   ```
+  **一旦定义了任意属性，那么确定属性和可选属性的类型必须是任意属性的子集**
 
+  只读属性
+  ```ts
+  interface Person {
+    readonly id: number;
+    name: string;
+    age?: number;
+    [propName: string]: any;
+  }
+
+  let tom: Person = {
+      id: 89757,
+      name: 'Tom',
+      gender: 'male'
+  };
+
+  tom.id = 9527; // Cannot assign to 'id' because it is a constant or a read-only property
+  ```
+  只读的约束存在于第一次给对象赋值的时候，而不是第一次给只读属性赋值的时候
 
 
 ### Function
@@ -366,7 +388,8 @@
 
 ### Type Assertion
 
-  类型断言可以用来手动指定一个值的类型。用法上在需要断言的变量前加上<Typr>即可
+  类型断言可以用来手动指定一个值的类型。用法上在需要断言的变量前加上<Type>即可
+  即 ```<类型>值``` 或者 ```值 as 类型```
 
   ```ts
   // TypeScript 中不确定一个联合类型的变量是哪一个类型时候，只能访问联合类型中的所有类型的公共方法，但是有时候确实需要在不确定类型的时候就访问某个类型的属性或方法时，就可以使用类型断言
@@ -380,6 +403,14 @@
   }
   ```
 
+  类型断言不是类型转换，断言成一个联合类型中不存在的类型是不允许的
+  ```ts
+  function toBoolean(something: string | number): boolean {
+    return <boolean>something;
+  }
+
+  // Type 'string | number' cannot be converted to type 'boolean'. Type 'number' is not comparable to type 'boolean'.
+  ```
 
 
 ### 类型别名
