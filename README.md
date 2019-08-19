@@ -1,5 +1,4 @@
 # blog
- - **see [issues](https://github.com/LiuL0703/blog/issues)**
 
 ## JavaScript
 + #### [JavaScript原型理解](https://github.com/LiuL0703/blog/blob/master/JavaScript/原型.md)
