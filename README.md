@@ -21,6 +21,8 @@
 + [关于BFC的总结](https://liul0703.github.io/2017/03/20/%E5%85%B3%E4%BA%8EBFC%E7%9A%84%E6%80%BB%E7%BB%93/)
 + [CSS3之transform](https://liul0703.github.io/2017/02/28/CSS3与3D轮转(一)/)
 + [CSS3之animation](https://liul0703.github.io/2017/03/01/CSS3与3D轮转(二)/)
++ [关于CSS will-change 属性你需要知道的事](https://github.com/LiuL0703/blog/issues/29)
+
 
 ### React
 + [State vs Props](https://github.com/LiuL0703/blog/issues/6)
