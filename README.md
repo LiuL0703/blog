@@ -12,6 +12,7 @@
 + [JavaScript中的相等比较步骤](https://github.com/LiuL0703/blog/issues/26)
 + [正则表达式之断言](https://github.com/LiuL0703/blog/issues/28)
 + [模板字符串](https://liul0703.github.io/2017/02/03/Template-Literals/)
++ [JavaScript基本类型之--BigInt](https://github.com/LiuL0703/blog/issues/30)
 
 
 ### HTML
