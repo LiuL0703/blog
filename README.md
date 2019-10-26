@@ -3,8 +3,6 @@
 ### JavaScript
 + [JavaScript原型理解](https://github.com/LiuL0703/blog/blob/master/JavaScript/原型.md)
 + [NULL和Undefined的区别](https://github.com/LiuL0703/blog/issues/4)
-+ [原型&继承&闭包](https://github.com/LiuL0703/blog/issues/9)
-+ [JavaScript排序算法实现](https://github.com/LiuL0703/blog/issues/10)
 + [节流(throttle)与去抖(debounce)](https://github.com/LiuL0703/blog/issues/11)
 + [new操作符做了什么](https://github.com/LiuL0703/blog/issues/17)
 + [关于JavaScript的深拷贝](https://github.com/LiuL0703/blog/issues/19)
@@ -39,21 +37,21 @@
 + [Chrome DevTools Tips](https://github.com/LiuL0703/blog/blob/master/JavaScript/DevTools.md)
 + [Git常用操作](https://github.com/LiuL0703/blog/issues/20)
 
+
 ### Perfermence
 + [CSS中的定位](https://github.com/LiuL0703/blog/issues/22)
 + [关于CSS will-change 属性你需要知道的事](https://github.com/LiuL0703/blog/issues/29)
++ [渲染性能分析(一)](https://github.com/LiuL0703/blog/issues/32)
++ [渲染性能分析(二)之JavaScript](https://github.com/LiuL0703/blog/issues/34)
++ [渲染性能分析(三)之Style](https://github.com/LiuL0703/blog/issues/36)
++ [渲染性能分析(四)之Layout]()
++ [渲染性能分析(五)之Paint]()
++ [渲染性能分析(六)之Composite]()
++ [渲染性能分析(七)之Handle Input](https://github.com/LiuL0703/blog/issues/35)
+
+
 
 ### Security
 + [常见的Web安全概念](https://github.com/LiuL0703/blog/issues/27)
 
-### 学习笔记
-+ [TypeScript学习笔记](https://github.com/LiuL0703/blog/blob/master/JavaScript/TypeScript学习笔记.md)
-+ [Vue组件通信](https://github.com/LiuL0703/blog/blob/master/JavaScript/Vue学习笔记.md)
-+ [ECMAScript 6](https://github.com/LiuL0703/blog/issues/14)
 
-### 小知识
-+ [前端相关](https://github.com/LiuL0703/blog/issues/16)
-
-### Others
-+ [常见的面试题](https://github.com/LiuL0703/blog/issues/24)
-+ [优秀文章收藏](https://github.com/LiuL0703/blog/issues/18)
