@@ -41,13 +41,9 @@
 ### Perfermence
 + [CSS中的定位](https://github.com/LiuL0703/blog/issues/22)
 + [关于CSS will-change 属性你需要知道的事](https://github.com/LiuL0703/blog/issues/29)
-+ [渲染性能分析(一)](https://github.com/LiuL0703/blog/issues/32)
-+ [渲染性能分析(二)之JavaScript](https://github.com/LiuL0703/blog/issues/34)
-+ [渲染性能分析(三)之Style](https://github.com/LiuL0703/blog/issues/36)
-+ [渲染性能分析(四)之Layout]()
-+ [渲染性能分析(五)之Paint]()
-+ [渲染性能分析(六)之Composite]()
-+ [渲染性能分析(七)之Handle Input](https://github.com/LiuL0703/blog/issues/35)
++ [渲染性能分析(上)](https://github.com/LiuL0703/blog/issues/32)
++ [渲染性能分析(下)]()
+
 
 
 
