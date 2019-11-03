@@ -1,6 +1,7 @@
 # blog
 
 ### JavaScript
++ [JavaScript基本类型之--BigInt](https://github.com/LiuL0703/blog/issues/30)
 + [JavaScript原型理解](https://github.com/LiuL0703/blog/blob/master/JavaScript/原型.md)
 + [NULL和Undefined的区别](https://github.com/LiuL0703/blog/issues/4)
 + [节流(throttle)与去抖(debounce)](https://github.com/LiuL0703/blog/issues/11)
@@ -10,21 +11,17 @@
 + [JavaScript中的相等比较步骤](https://github.com/LiuL0703/blog/issues/26)
 + [正则表达式之断言](https://github.com/LiuL0703/blog/issues/28)
 + [模板字符串](https://liul0703.github.io/2017/02/03/Template-Literals/)
-+ [JavaScript基本类型之--BigInt](https://github.com/LiuL0703/blog/issues/30)
-
-
-### HTML
-+ [HTML5中的自定义 data-* 属性](https://github.com/LiuL0703/blog/issues/5)
-
-### CSS
-+ [关于BFC的总结](https://liul0703.github.io/2017/03/20/%E5%85%B3%E4%BA%8EBFC%E7%9A%84%E6%80%BB%E7%BB%93/)
-+ [CSS3之transform](https://liul0703.github.io/2017/02/28/CSS3与3D轮转(一)/)
-+ [CSS3之animation](https://liul0703.github.io/2017/03/01/CSS3与3D轮转(二)/)
 
 
 ### React
 + [State vs Props](https://github.com/LiuL0703/blog/issues/6)
 + [React ES6 class constructor super](https://github.com/LiuL0703/blog/issues/8)
+
+### Perfermence
++ [CSS中的定位](https://github.com/LiuL0703/blog/issues/22)
++ [关于CSS will-change 属性你需要知道的事](https://github.com/LiuL0703/blog/issues/29)
++ [渲染性能分析(上)](https://github.com/LiuL0703/blog/issues/32)
++ [渲染性能分析(下)](https://github.com/LiuL0703/blog/issues/37)
 
 
 ### NetWork
@@ -38,16 +35,16 @@
 + [Git常用操作](https://github.com/LiuL0703/blog/issues/20)
 
 
-### Perfermence
-+ [CSS中的定位](https://github.com/LiuL0703/blog/issues/22)
-+ [关于CSS will-change 属性你需要知道的事](https://github.com/LiuL0703/blog/issues/29)
-+ [渲染性能分析(上)](https://github.com/LiuL0703/blog/issues/32)
-+ [渲染性能分析(下)]()
-
-
-
 
 ### Security
 + [常见的Web安全概念](https://github.com/LiuL0703/blog/issues/27)
 
 
+### HTML
++ [HTML5中的自定义 data-* 属性](https://github.com/LiuL0703/blog/issues/5)
+
+
+### CSS
++ [关于BFC的总结](https://liul0703.github.io/2017/03/20/%E5%85%B3%E4%BA%8EBFC%E7%9A%84%E6%80%BB%E7%BB%93/)
++ [CSS3之transform](https://liul0703.github.io/2017/02/28/CSS3与3D轮转(一)/)
++ [CSS3之animation](https://liul0703.github.io/2017/03/01/CSS3与3D轮转(二)/)
