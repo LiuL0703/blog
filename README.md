@@ -16,6 +16,7 @@
 ### React
 + [State vs Props](https://github.com/LiuL0703/blog/issues/6)
 + [React ES6 class constructor super](https://github.com/LiuL0703/blog/issues/8)
++ [React一些细节的理解整理汇总](https://github.com/LiuL0703/blog/issues/39)
 
 ### Perfermence
 + [CSS中的定位](https://github.com/LiuL0703/blog/issues/22)
